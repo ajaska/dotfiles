@@ -1,0 +1,59 @@
+settings = {
+  core = {
+    real_name = "Arlan Jaska";
+    user_name = "ajaska";
+    nick = "ajaska";
+    recode_autodetect_utf8 = "yes";
+    recode_fallback = "UTF-8";
+    recode = "yes";
+    recode_out_default_charset = "UTF-8";
+    recode_transliterate = "yes";
+  };
+  "fe-text" = { actlist_sort = "refnum"; };
+  "irc/core" = { alternate_nick = "ajaska`"; };
+  "perl/core/scripts" = {
+    awl_hide_data = "2";
+    awl_prefer_name = "no";
+    awl_automode = "sbar";
+    awl_placement = "bottom";
+    awl_position = "0";
+    awl_display_nokey = "[$N]$H$C$S";
+    awl_display_nokey_active = "  ";
+    awl_display_key = "[$Q]$H$C$S";
+  };
+  "fe-common/core" = { term_charset = "utf-8"; };
+};
+logs = { };
+keyboard = (
+  { key = "^[1"; id = "key"; data = "CA1"; },
+  { key = "^[2"; id = "key"; data = "CA2"; },
+  { key = "^[3"; id = "key"; data = "CA3"; },
+  { key = "^[^@"; id = "key"; data = "CA2"; },
+  { key = "^[^["; id = "key"; data = "CA3"; },
+  { key = "^[^^"; id = "key"; data = "CA6"; },
+  { key = "^[^]"; id = "key"; data = "CA5"; },
+  { key = "^[^_"; id = "key"; data = "CA7"; }
+);
+statusbar = {
+  default = {
+    window = {
+      items = {
+        barstart = { priority = "100"; };
+        time = { };
+        user = { };
+        window = { };
+        window_empty = { };
+        lag = { priority = "-1"; };
+        more = { priority = "-1"; alignment = "right"; };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_0 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_0 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+  };
+};
