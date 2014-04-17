@@ -36,6 +36,43 @@ NoVA Network
 * Pebbly
 * Bouldery
 
+Constellations and stars
+====
+####Free
+* Constellations
+  * Andromeda
+  * Aquarius
+  * Aquila
+    * Altair
+  * Canis Major
+    * Sirius
+  * Canis Minor
+  * Cassiopeia
+  * Cygnus
+    * Deneb
+  * Draco
+  * Gemini
+    * Pollux
+  * Hydra
+  * Libra
+  * Lupus
+  * Lynx
+  * Lyra
+    * Vega
+  * Orion
+    * Betelgeuse
+  * Pegasus
+  * Perseus
+  * Pisces
+  * Ursa Major
+  * Ursa Minor
+    * Polaris
+* Other stars
+  * Canopus
+  * Alpha Centauri
+  * Arcturus
+  * Capella
+
 Ships
 ====
 ####Free
